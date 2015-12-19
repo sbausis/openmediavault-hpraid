@@ -2,7 +2,7 @@
 // require("js/omv/WorkspaceManager.js")
 
 OMV.WorkspaceManager.registerNodeOverride({
-	newpath : "/storage/mdadm",
+	del 	: true,
     id      : "hpraid",
     path    : "/storage",
     //text    : _("HP Raid"),
