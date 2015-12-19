@@ -11,10 +11,10 @@ OMV.WorkspaceManager.registerNodeOverride({
 });
 
 OMV.WorkspaceManager.registerPanelOverride({
-	newpath   : "/storage/mdadm/hpraid",
+	newpath   : "/storage/mdadm",
     id        : "output",
     path      : "/storage/hpraid",
-    //text      : _("Output"),
+    text    : _("HP Raid"),
     //position  : 10,
     //className : "OMV.module.admin.storage.hpraid.Output"
 });
